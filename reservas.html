@@ -14,4 +14,74 @@
             <li><a href="reservas.html">Reservas</a></li>
         </ul>
     </nav>
+    <form>
+        <h3>Reservas</h3>
+        <input type="button" value="+ Nova reserva"><br><br>
+        <form>
+            <label>Id</label><br>
+            <input type="text"><br><br>
+            <label>proprietário</label><br>
+            <input type="text"><br><br>
+            <label>status</label><br>
+            <select>
+                <option></option>
+                <option>Reservada</option>
+                <option>Em progresso</option>
+                <option>Finalizada</option>
+            </select><br><br>
+            <label>período</label><br>
+            <input type="date"> <input type="date"><br><br>
+            <label>Total</label><br>
+            <input type="number" placeholder="R$ 0,00"> <input type="number" placeholder="R$ 0,00"><br><br>
+            <label>pet</label><br>
+            <input type="text"><br><br>
+            <input type="button" value="Pesquisar"> <input type="button" value="Limpar">
+        </form>
+    </form>
+    <table>
+        <thead>
+            <th> </th>
+            <th>Id</th>
+            <th>Pet</th>
+            <th>chegada</th>
+            <th>partida</th>
+            <th>status</th>
+            <th>total</th>
+            <th> </th>
+            <th> </th>
+        </thead>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td>12349984501</td>
+            <td>max</td>
+            <td>02/05/2021</td>
+            <td>07/05/2020</td>
+            <td><input type="button" value="Reservada"></td>
+            <td>R$ 40,00</td>
+            <td>Editar</td>
+            <td>Visualizar</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td>12349984501</td>
+            <td>ginger</td>
+            <td>02/05/2021</td>
+            <td>07/05/2020</td>
+            <td><input type="button" value="Em progresso"></td>
+            <td>R$ 40,00</td>
+            <td>Editar</td>
+            <td>Visualizar/td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td>12349984501</td>
+            <td>max</td>
+            <td>02/05/2021</td>
+            <td>07/05/2020</td>
+            <td><input type="button" value="Finalizada"></td>
+            <td>R$ 40,00</td>
+            <td>Editar</td>
+            <td>Visualizar</td>
+        </tr>
+    </table>
 </html>
