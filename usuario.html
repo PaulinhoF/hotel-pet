@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Hotel Pet</title>
+    </head>
+    <nav>
+        <h1>Hotel Pet</h1>
+        <ul>
+            <li><a href="pets.html">Pet</a></li>
+            <li><a href="usuario.html">Usuários</a></li>
+            <li><a href="configuracoes.html">Configurações</a></li>
+            <li><a href="reservas.html">Reservas</a></li>
+        </ul>
+    </nav>
+    <form>
+        <h3>Usuários</h3>
+        <input type="button" value="+ novo">
+        <input type="button" value="- Remover">
+        <input type="button" value="Mudar status"><br><br>
+        <label> Visualizar Por:  </label>
+        <input type="button" value="Usuários">
+        <input type="button" value="Função"><br><br>
+        <form>
+            <label>Id</label><br>
+            <input type="number"><br><br>
+            <label>email</label><br>
+            <input type="email"><br><br>
+            <label>status</label><br>
+            <select>
+                <option></option>
+                <option>Ativo</option>
+                <option>Inativo</option>
+            </select><br><br>
+            <label>criado em</label><br>
+            <input type="date"> <input type="date"><br><br>
+            <label>nome</label><br>
+            <input type="text"><br><br>
+            <label>função</label><br>
+            <select>
+                <option></option>
+                <option>Gerente</option>
+                <option>Funcionário</option>
+                <option>Cliente</option>
+            </select><br><br>
+            <input type="button" value="Pesquisar">
+            <input type="button" value="Limpar">
+        </form>
+    </form>
+    <table>
+        <thead>
+            <th> </th>
+            <th>Foto</th>
+            <th>nome</th>
+            <th>função</th>
+            <th>status</th>
+            <th>criado em</th>
+            <th> </th>
+            <th> </th>
+        </thead>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td><img src="Imagens/Avatar.png" alt="avatar.png"></td>
+            <td>joaodasilva@pet.com</td>
+            <td>João da Silva</td>
+            <td>Gerente</td>
+            <td><input type="button" value="Ativo"></td>
+            <td>19/02/2020</td>
+            <td>Editar</td>
+            <td>Visualizar</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td><img src="Imagens/Avatar.png" alt="avatar.png"></td>
+            <td>maria@pet.com</td>
+            <td>Maria da Silva</td>
+            <td>Funcionário</td>
+            <td><input type="button" value="inativo"></td>
+            <td>19/02/2020</td>
+            <td>Editar</td>
+            <td>Visualizar</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td><img src="imagens/Avatar.png" alt="avatar.png"></td>
+            <td>josedasilva@pet.com</td>
+            <td>José da Silva</td>
+            <td>Cliente</td>
+            <td><input type="button" value="Ativo"></td>
+            <td>19/02/2020</td>
+            <td>Editar</td>
+            <td>Visualizar</td>
+        </tr>
+    </table>
+</html>
