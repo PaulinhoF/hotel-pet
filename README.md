@@ -8,9 +8,9 @@ O projeto deverá ser desenvolvido individualmente utilizando, primeiramente, **
 **Não poderá usar bibliotecas ou frameworks**.
 No entanto, o conhecimento pode ser compartilhado e podem se ajudar mutuamente.
 O projeto será dividido em etapas que deverão ser entregues nos prazos estabelecidos.
-Será avaliada as entregas frequentes e nos prazos, por meio do **GitHub**.
-Etapas estimadas:
-**Semana 1 - 14/08 HTML**
+Será avaliada as entregas frequentes e nos prazos, por meio do **GitHub**.  
+Etapas estimadas:  
+**Semana 1 - 14/08 HTML**  
 **Semana 2 - 21/08 CSS**
 
 Hotel Pet é um sistema de gerenciamento de estadia de Pets em períodos específicos.
